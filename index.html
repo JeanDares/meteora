@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -17,7 +17,9 @@
 
     <nav class="navbar navbar-expand-md bg-black navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"> <h1 class="m-0" > <img class="d-block" src="./assets/logo-meteora.png" alt="logo da loja"></h1></a>
+            <a class="navbar-brand" href="#">
+                <h1 class="m-0"> <img class="d-block" src="./assets/logo-meteora.png" alt="logo da loja"></h1>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -39,7 +41,8 @@
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
-                    <input class="form-control me-2 rounded-1" type="search" placeholder="Digite o produto" aria-label="Search">
+                    <input class="form-control me-2 rounded-1" type="search" placeholder="Digite o produto"
+                        aria-label="Pesquisar">
                     <button class="btn btn-outline-light rounded-1" type="submit">Buscar</button>
                 </form>
             </div>
@@ -57,44 +60,30 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555"
-                        dy=".3em">First slide</text>
-                </svg>
-                <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>Some representative placeholder content for the first slide.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444"
-                        dy=".3em">Second slide</text>
-                </svg>
+                <img class="img-fluid d-md-none" src="./assets/Mobile/banner2-mobile.png"
+                    alt="modelo feminina  vestindo blusa vermelha flourescente, em fundo vermelho">
+                <img class="img-fluid d-none d-xl-none d-md-block" src="./assets/Tablet/banner2-tablet.png"
+                    alt="modelo feminina  vestindo blusa vermelha flourescente, em fundo vermelho">
+                <img class="img-fluid d-none d-xl-block" src="./assets/Desktop/banner2-desktop.png"
+                    alt="modelo feminina  vestindo blusa vermelha flourescente, em fundo vermelho">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Second slide label</h5>
                     <p>Some representative placeholder content for the second slide.</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333"
-                        dy=".3em">Third slide</text>
-                </svg>
+                <img class="img-fluid d-md-none" src="./assets/Mobile/banner3-mobile.png"
+                    alt="modelo feminina  vestindo blusa vermelha flourescente, em fundo vermelho">
+                <img class="img-fluid d-none d-xl-none d-md-block" src="./assets/Tablet/banner3-tablet.png"
+                    alt="modelo feminina  vestindo blusa vermelha flourescente, em fundo vermelho">
+                <img class="img-fluid d-none d-xl-block" src="./assets/Desktop/banner3-desktop.png"
+                    alt="modelo feminina  vestindo blusa vermelha flourescente, em fundo vermelho">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Third slide label</h5>
                     <p>Some representative placeholder content for the third slide.</p>
                 </div>
             </div>
+
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
             data-bs-slide="prev">
@@ -108,96 +97,72 @@
         </button>
     </div>
 
-    <h2 class="text-center py-3">Busque por categoria</h2>
+    <h2 class="text-center my-3 my-xl-5">Busque por categoria</h2>
     <div class="container row mx-auto g-4">
 
 
         <div class="col-6 col-md-4 col-xxl-2">
-            <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-                </svg>
-                <div class="card-header">
-                    <p class="text-center">Categoria</p>
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+                <img class="d-md-none d-block" src="./assets/Mobile/categorias/categoria-bolsas.png" alt="">
+                <img class="d-none d-md-block  d-xl-none" src="./assets/Tablet/categorias/categoria-bolsas.png" alt="">
+                <img class="d-none   d-xl-block" src="./assets/Desktop/categorias/categoria-bolsa.png" alt="">
+                <div class="card-header bg-black">
+                    <p class="text-center text-white">Bolsas</p>
                 </div>
             </div>
         </div>
 
         <div class="col-6 col-md-4 col-xxl-2">
-            <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-                </svg>
-                <div class="card-header">
-                    <p class="text-center">Categoria</p>
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+                <img class="d-md-none d-block" src="./assets/Mobile/categorias/categoria-calcados.png" alt="">
+                <img class="d-none d-md-block  d-xl-none" src="./assets/Tablet/categorias/categoria-calcados.png" alt="">
+                <img class="d-none   d-xl-block" src="./assets/Desktop/categorias/categoria-calcados.png" alt="">
+                <div class="card-header bg-black">
+                    <p class="text-center text-white">Calcados</p>
                 </div>
             </div>
         </div>
 
         <div class="col-6 col-md-4 col-xxl-2">
-            <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-                </svg>
-                <div class="card-header">
-                    <p class="text-center">Categoria</p>
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+                <img class="d-md-none d-block" src="./assets/Mobile/categorias/categoria-calcas.png" alt="">
+                <img class="d-none d-md-block  d-xl-none" src="./assets/Tablet/categorias/categoria-calcas.png" alt="">
+                <img class="d-none   d-xl-block" src="./assets/Desktop/categorias/categoria-calcas.png" alt="">
+                <div class="card-header bg-black">
+                    <p class="text-center text-white">Calças</p>
                 </div>
             </div>
         </div>
 
         <div class="col-6 col-md-4 col-xxl-2">
-            <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-                </svg>
-                <div class="card-header">
-                    <p class="text-center">Categoria</p>
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+                <img class="d-md-none d-block" src="./assets/Mobile/categorias/categoria-camiseta.png" alt="">
+                <img class="d-none d-md-block  d-xl-none" src="./assets/Tablet/categorias/categoria-camiseta.png" alt="">
+                <img class="d-none   d-xl-block" src="./assets/Desktop/categorias/categoria-camiseta.png" alt="">
+                <div class="card-header bg-black">
+                    <p class="text-center text-white">Camisetas</p>
                 </div>
             </div>
         </div>
 
         <div class="col-6 col-md-4 col-xxl-2">
-            <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-                </svg>
-                <div class="card-header">
-                    <p class="text-center">Categoria</p>
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+                <img class="d-md-none d-block" src="./assets/Mobile/categorias/categoria-casacos.png" alt="">
+                <img class="d-none d-md-block  d-xl-none" src="./assets/Tablet/categorias/categoria-casacos.png" alt="">
+                <img class="d-none   d-xl-block" src="./assets/Desktop/categorias/categoria-casacos.png" alt="">
+                <div class="card-header bg-black">
+                    <p class="text-center text-white">Casacos</p>
                 </div>
             </div>
         </div>
 
         <div class="col-6 col-md-4 col-xxl-2">
-            <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-                </svg>
-                <div class="card-header">
-                    <p class="text-center">Categoria</p>
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+                <img class="d-md-none d-block" src="./assets/Mobile/categorias/categoria-oculos.png" alt="">
+                <img class="d-none d-md-block  d-xl-none" src="./assets/Tablet/categorias/categoria-oculos.png" alt="">
+                <img class="d-none   d-xl-block" src="./assets/Desktop/categorias/categoria-oculos.png" alt="">
+                <div class="card-header bg-black">
+                    <p class="text-center text-white">Oculos</p>
                 </div>
             </div>
         </div>
@@ -208,158 +173,134 @@
     <div class="container row mx-auto g-4">
 
         <div class="col-12 col-md-6 col-xxl-4">
-            <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-                </svg>
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+                <img class="d-md-none d-block" src="./assets/Mobile//produtos/bolsa.png" alt="">
+                <img class="d-none d-md-block  d-xl-none" src="./assets/Tablet/produtos/bolsa.png" alt="">
+                <img class="d-none   d-xl-block" src="./assets/Desktop/produtos/bolsa.png" alt="">
                 <div class="card-body">
-                    <h5 class="card-title">Produto</h5>
+                    <h5 class="card-title">Bolsas</h5>
                     <p class="card-text">
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.
                     </p>
                     <p>R$:30,00</p>
-                    <a href="#" class="btn btn-primary">Veja mais</a>
+                    <a href="#" class="btn lilas">Veja mais</a>
                 </div>
             </div>
         </div>
 
         <div class="col-12 col-md-6 col-xxl-4">
-            <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-                </svg>
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+                <img class="d-md-none d-block" src="./assets/Mobile//produtos/calca.png" alt="">
+                <img class="d-none d-md-block  d-xl-none" src="./assets/Tablet/produtos/calca.png" alt="">
+                <img class="d-none   d-xl-block" src="./assets/Desktop/produtos/calca.png" alt="">
                 <div class="card-body">
-                    <h5 class="card-title">Produto</h5>
+                    <h5 class="card-title">Calças</h5>
                     <p class="card-text">
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.
                     </p>
                     <p>R$:30,00</p>
-                    <a href="#" class="btn btn-primary">Veja mais</a>
+                    <a href="#" class="btn lilas">Veja mais</a>
                 </div>
             </div>
         </div>
 
         <div class="col-12 col-md-6 col-xxl-4">
-            <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-                </svg>
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+                <img class="d-md-none d-block" src="./assets/Mobile//produtos/camiseta.png" alt="">
+                <img class="d-none d-md-block  d-xl-none" src="./assets/Tablet/produtos/camiseta.png" alt="">
+                <img class="d-none   d-xl-block" src="./assets/Desktop/produtos/camiseta.png" alt="">
                 <div class="card-body">
-                    <h5 class="card-title">Produto</h5>
+                    <h5 class="card-title">Camisetas</h5>
                     <p class="card-text">
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.
                     </p>
                     <p>R$:30,00</p>
-                    <a href="#" class="btn btn-primary">Veja mais</a>
+                    <a href="#" class="btn lilas">Veja mais</a>
                 </div>
             </div>
         </div>
 
         <div class="col-12 col-md-6 col-xxl-4">
-            <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-                </svg>
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+                <img class="d-md-none d-block" src="./assets/Mobile//produtos/jaqueta-jeans.png" alt="">
+                <img class="d-none d-md-block  d-xl-none" src="./assets/Tablet/produtos/jaqueta-jeans.png" alt="">
+                <img class="d-none   d-xl-block" src="./assets/Desktop/produtos/jaqueta-jeans.png" alt="">
                 <div class="card-body">
-                    <h5 class="card-title">Produto</h5>
+                    <h5 class="card-title">Jaqueta-jeans</h5>
                     <p class="card-text">
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.
                     </p>
                     <p>R$:30,00</p>
-                    <a href="#" class="btn btn-primary">Veja mais</a>
+                    <a href="#" class="btn lilas">Veja mais</a>
                 </div>
             </div>
         </div>
 
         <div class="col-12 col-md-6 col-xxl-4">
-            <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-                </svg>
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+                <img class="d-md-none d-block" src="./assets/Mobile//produtos/oculos.png" alt="">
+                <img class="d-none d-md-block  d-xl-none" src="./assets/Tablet/produtos/oculos.png" alt="">
+                <img class="d-none   d-xl-block" src="./assets/Desktop/produtos/oculos.png" alt="">
                 <div class="card-body">
-                    <h5 class="card-title">Produto</h5>
+                    <h5 class="card-title">Óculos</h5>
                     <p class="card-text">
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.
                     </p>
                     <p>R$:30,00</p>
-                    <a href="#" class="btn btn-primary">Veja mais</a>
+                    <a href="#" class="btn lilas">Veja mais</a>
                 </div>
             </div>
         </div>
 
         <div class="col-12 col-md-6 col-xxl-4">
-            <div class="card">
-                <svg class="bd-placeholder-img card-img-top" width="100%" height="180"
-                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap"
-                    preserveAspectRatio="xMidYMid slice" focusable="false">
-                    <title>Placeholder</title>
-                    <rect width="100%" height="100%" fill="#868e96"></rect>
-                    <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-                </svg>
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+                <img class="d-md-none d-block" src="./assets/Mobile//produtos/tenis.png" alt="">
+                <img class="d-none d-md-block  d-xl-none" src="./assets/Tablet/produtos/tenis.png" alt="">
+                <img class="d-none   d-xl-block" src="./assets/Desktop/produtos/tenis.png" alt="">
                 <div class="card-body">
-                    <h5 class="card-title">Produto</h5>
+                    <h5 class="card-title">Tênis</h5>
                     <p class="card-text">
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.
                     </p>
                     <p>R$:30,00</p>
-                    <a href="#" class="btn btn-primary">Veja mais</a>
+                    <a href="#" class="btn lilas">Veja mais</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <section class="pb-4 facilidades">
+    <section class="pb-4 facilidades bg-black  text-white">
 
         <h2 class="text-center">Conheça todas as nossas facilidades</h2>
 
         <div class="d-flex flex-column align-items-center gap-3 flex-xl-row justify-content-xl-center">
             <div class="divs-facilidades d-flex">
-                <div> <i class="bi bi-x-diamond fs-1"></i></div>
+                <div> <i class="bi bi-x-diamond fs-1 verde-limao"></i></div>
                 <div>
-                    <div class=" ms-3">PAGUE PELO PIK</div>
+                    <div class=" ms-3 verde-limao">PAGUE PELO PIK</div>
                     <div class="texto-menor ms-3"> Ganhe 5% OFF em
                         pagamentos via PIX </div>
                 </div>
             </div>
 
             <div class="divs-facilidades d-flex">
-                <div> <i class="bi bi-arrow-repeat fs-1"></i></div>
+                <div> <i class="bi bi-arrow-repeat fs-1 verde-limao"></i></div>
                 <div>
-                    <div class=" ms-3">TROCA GRÁTIS</div>
+                    <div class=" ms-3 verde-limao">TROCA GRÁTIS</div>
                     <div class="texto-menor ms-3">Fique livre para trocar em até 30 dias.</div>
                 </div>
             </div>
 
             <div class="divs-facilidades d-flex">
-                <div><i class="bi bi-flower1 fs-1"></i></div>
+                <div><i class="bi bi-flower1 fs-1 verde-limao"></i></div>
                 <div>
-                    <div class=" ms-3">SUSTENTABILIDADE</div>
+                    <div class=" ms-3 verde-limao">SUSTENTABILIDADE</div>
                     <div class="texto-menor ms-3">Moda responsável, que respeita o meio ambiente.</div>
                 </div>
             </div>
@@ -368,7 +309,8 @@
     </section>
 
     <form class="border border-secondary m-3 p-3 text-center ">
-        <h5>Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra? Cadastre-se!</h5>
+        <h5 class="y-xl-5">Quer receber nossas novidades, promoções exclusivas e 10% OFF na primeira compra?
+            Cadastre-se!</h5>
 
         <div class="input-group my-3">
             <input class="form-control border-secondary" type="email" placeholder="Digite seu e-mail"
@@ -377,8 +319,14 @@
         </div>
     </form>
 
-    <footer class="text-center">
-        <p class="py-3">2023 <i class="bi bi-c-circle"></i> Desenvolvido por Jean Borges Dares |  </p>
+    <footer class="text-center bg-black text-white">
+        <p class="py-3">2023
+            <i class="bi bi-c-circle"></i> Desenvolvido por Jean Borges Dares
+            <a class="m-2" target="_blank" href="https://www.linkedin.com/in/jean-borges-9a0b201b5/"> <i
+                    class="bi bi-linkedin"></i></a>
+            <a class="m-2" target="_blank" href="https://github.com/JeanDares"> <i class="bi bi-github"></i></a>
+
+        </p>
     </footer>
 
 
